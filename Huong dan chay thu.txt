@@ -1,0 +1,18 @@
+1. Cài đặt môi trường:
+   - Phiên bản Python 3.12 trở xuống ( vì Pytorch chưa hỗ trợ các phiên bản mới )
+   - Pip ( trình quản lý tập tin )
+2. Cài đặt các thư viện cần thiết:
+   - Cài đặt Pytorh ( trên pytorch.org ) tùy thuộc vào cấu hình máy mà có các tùy chọn khác nhau
+   - Cài đặt Easyocr : pip install easyocr
+   - Cài đặt NumPy : pip install numpy
+   - Cài đặt pandas : pip install pandas
+   - Cài đặt Pillow và tk : pip install pillow tk
+   - Cài đặt thư viện labelme: pip install labelme
+3. Chạy ứng dụng:
+   - Chạy lệnh : python app_gui.py
+   - Bước 1: Chọn Mẫu Hóa Đơn (JSON) Chọn mẫu hóa đơn từ danh sách có sẵn. Nếu muốn tạo mẫu mới, chọn "Tạo mới mẫu hóa đơn", ứng dụng labelme sẽ mở lên.
+   - Bước 2: Chọn Ảnh Hóa Đơn Nhấn nút "Chọn file ảnh" để tải ảnh hóa đơn lên. 
+   - Bước 3: Chọn Ngôn Ngữ OCR Chọn ngôn ngữ OCR từ danh sách có sẵn (vi, en, zh, ja, ko, fr). 
+   - Bước 4: Trích Xuất Thông Tin Nhấn nút "Trích xuất" để hệ thống xử lý ảnh và hiển thị kết quả. 
+   - Bước 5: Xuất Kết Quả Nhấn nút "Xuất File" để lưu kết quả dưới dạng tệp .txt.
+
